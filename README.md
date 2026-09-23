@@ -10,6 +10,10 @@ WGS-84-based HAPS-to-UE geometry with large-scale propagation effects based on
 > This project is a research prototype. It is not an official 3GPP or ITU
 > conformance implementation.
 
+## Documentation
+
+- [User Guide](docs/USER_GUIDE.md)
+
 ## Overview
 
 The model calculates the HAPS-to-UE link geometry and large-scale propagation
@@ -125,8 +129,9 @@ setup consists of the following steps:
 5. Add the `hapsmod` records to `channelmod_haps_3gpp_itu.conf`.
 6. Build and run the RFsimulator, gNB, and UE.
 
-The exact compatible OAI revision, file paths, build commands, and run commands
-will be included in the v0.1.0 user guide.
+For configuration, log interpretation, calculations, verification, and basic
+troubleshooting, see the [User Guide](docs/USER_GUIDE.md). Exact build and run
+commands must be published together with the tested OAI revision.
 
 ## Configuration
 
@@ -218,4 +223,3 @@ compatible with the applicable OAI licensing terms.
 Citation metadata will be added before the public v0.1.0 release. If this model
 is used in academic work, please cite the software release and the associated
 technical publication when available.
-
