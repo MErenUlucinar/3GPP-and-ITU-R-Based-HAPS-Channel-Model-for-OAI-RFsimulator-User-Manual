@@ -1,0 +1,1 @@
+# 3GPP-and-ITU-R-Based-HAPS-Channel-Model-for-OAI-RFsimulator-User-Manual-Version-0.1.0
