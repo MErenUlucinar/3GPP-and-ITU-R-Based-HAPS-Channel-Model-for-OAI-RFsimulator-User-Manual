@@ -348,8 +348,8 @@ Use the following sequence for an initial verification:
 - No MIMO channel processing
 - No internal channel noise model
 - No cloud or scintillation attenuation
-- No HAPS-specific SIB19 signalling
-- Gas and rain models require further end-to-end validation
+
+
 
 ## 13. Before a Public Release
 
