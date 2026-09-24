@@ -13,6 +13,9 @@ WGS-84-based HAPS-to-UE geometry with large-scale propagation effects based on
 ## Documentation
 
 - [User Guide](docs/USER_GUIDE.md)
+- [OAI Integration Guide](integration/README.md)
+- [Example HAPS Configuration](examples/channelmod_haps_3gpp_itu.conf)
+- [Reference Validation Results](validation/reference_results.csv)
 
 ## Overview
 
@@ -126,7 +129,8 @@ setup consists of the following steps:
 2. Register the `HAPS_3GPP_ITU` channel type.
 3. Add the HAPS sources to the OAI build configuration.
 4. Connect HAPS channel processing to `simulator.cpp`.
-5. Add the `hapsmod` records to `channelmod_haps_3gpp_itu.conf`.
+5. Copy and adapt the example
+   [`channelmod_haps_3gpp_itu.conf`](examples/channelmod_haps_3gpp_itu.conf).
 6. Build and run the RFsimulator, gNB, and UE.
 
 For configuration, log interpretation, calculations, verification, and basic
@@ -188,7 +192,9 @@ sample rate:
 | 10° | 109.910 km | 366.619393 µs | 22526 | 144.44 dB |
 
 These values are intended as reference calculations for geometry, FSPL, and
-integer-sample delay verification.
+integer-sample delay verification. The same dataset, including exact sample
+counts, applied delays, and quantization errors, is available in
+[`validation/reference_results.csv`](validation/reference_results.csv).
 
 ## Current Limitations
 
