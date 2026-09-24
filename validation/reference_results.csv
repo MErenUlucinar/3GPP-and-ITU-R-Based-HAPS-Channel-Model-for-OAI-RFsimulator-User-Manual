@@ -1,0 +1,5 @@
+test_id,elevation_deg,haps_altitude_km,slant_range_km,carrier_frequency_ghz,sample_rate_msps,one_way_delay_us,exact_samples,integer_samples,applied_delay_us,quantization_error_ns,fspl_db,scenario,los_mode,terminal_type,delay_quantization
+ELEV_90,90,20,20,3.6192,61.44,66.712819,4098.835602,4099,66.715495,2.676,129.64,rural,forced_los,outdoor,ceil
+ELEV_60,60,20,23.082,3.6192,61.44,76.993292,4730.46784,4731,77.001953,8.661,130.89,rural,forced_los,outdoor,ceil
+ELEV_30,30,20,39.814,3.6192,61.44,132.806663,8159.641354,8160,132.8125,5.837,135.62,rural,forced_los,outdoor,ceil
+ELEV_10,10,20,109.91,3.6192,61.44,366.619393,22525.095525,22526,366.634115,14.721,144.44,rural,forced_los,outdoor,ceil
