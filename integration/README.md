@@ -12,7 +12,7 @@ The repository separates the HAPS implementation from the OAI core:
 
 - `src/` contains the HAPS-owned source and header files.
 - `integration/` documents the changes required in existing OAI files.
-- `configs/` will contain example RFsimulator and HAPS configurations.
+- `examples/` contains example RFsimulator and HAPS configurations.
 - OAI core files are not copied into this repository as independent source
   files.
 
@@ -163,8 +163,8 @@ Without a pinned base commit, the patch may fail or modify the wrong code.
 ## 7. Files That Belong Elsewhere
 
 - HAPS implementation files belong in `src/`.
-- Example `.conf` files belong in `configs/`.
-- Validation scripts and expected results belong in `tests/`.
+- Example `.conf` files belong in `examples/`.
+- Reference measurements and validation outputs belong in `validation/`.
 - User-facing explanations belong in `docs/`.
 - OAI core modifications belong in revision-specific patch files under
   `integration/patches/`.
