@@ -1,4 +1,4 @@
-# OAI RFsimulator HAPS Channel Model
+# OAI RFsimulator HAPS Channel Model: 3GPP and ITU-R-Based HAPS Channel Emulation for OAI RFsimulator
 
 An experimental High-Altitude Platform Station (HAPS) channel model for the
 OpenAirInterface (OAI) RFsimulator. The implementation combines a static
