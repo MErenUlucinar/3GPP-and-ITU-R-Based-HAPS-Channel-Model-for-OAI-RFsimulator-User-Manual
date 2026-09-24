@@ -208,7 +208,7 @@ counts, applied delays, and quantization errors, is available in
 - No MIMO channel processing
 - No cloud or scintillation attenuation
 - No HAPS-specific SIB19 signalling
-- Gas and rain models require further end-to-end validation
+
 
 ## References
 
