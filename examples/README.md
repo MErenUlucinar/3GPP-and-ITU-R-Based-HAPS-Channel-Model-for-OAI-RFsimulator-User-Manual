@@ -6,8 +6,8 @@ being tested.
 
 | File | Purpose |
 |---|---|
-| `gnb.sa.band78.fr1.106PRB.haps.rfsim.conf` | gNB profile for the baseline test with propagation delay disabled |
-| `gnb.sa.band78.fr1.106PRB.haps.rfsim.backup.conf` | gNB profile for the propagation-delay test; includes static NTN/SIB19 timing-assistance fields |
+| `gnb.sa.band78.fr1.106PRB.haps.rfsim.delay-off.conf` | gNB profile for the baseline test with propagation delay disabled |
+| `gnb.sa.band78.fr1.106PRB.haps.rfsim.delay-on.conf` | gNB profile for the propagation-delay test; includes static NTN/SIB19 timing-assistance fields |
 | `ue.haps.conf` | Common UE profile used in both tests |
 | `channelmod_haps_3gpp_itu.conf` | HAPS geometry, propagation, loss-component, delay, and Doppler parameters |
 
