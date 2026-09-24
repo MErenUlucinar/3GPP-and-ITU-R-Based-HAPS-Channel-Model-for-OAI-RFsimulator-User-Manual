@@ -96,10 +96,16 @@ This release reuses OAI's channel selection, link management, receive path, and
 integer-sample offset mechanisms. The HAPS-specific geometry and propagation
 calculations are implemented in separate modules.
 
+For the file-by-file connection points and recommended integration order, see
+the [OAI Integration Guide](../integration/README.md).
+
 ## 5. Configuration
 
 HAPS parameters are read from the `hapsmod` list in
-`channelmod_haps_3gpp_itu.conf`. A separate record can be used for each link:
+`channelmod_haps_3gpp_itu.conf`. A separate record can be used for each link.
+The repository provides a documented baseline in
+[`examples/channelmod_haps_3gpp_itu.conf`](../examples/channelmod_haps_3gpp_itu.conf)
+with the following link names:
 
 ```text
 rfsimu_channel_enB0   # Downlink channel record
@@ -306,6 +312,11 @@ increase. This trend is physically consistent. The quantization errors do not
 follow the same monotonic trend because each value is determined by a different
 fractional sample residual.
 
+The machine-readable version of these results is available in
+[`validation/reference_results.csv`](../validation/reference_results.csv). Each
+row represents one elevation-angle test, and the column names include their
+measurement units.
+
 ## 10. Verification Procedure
 
 Use the following sequence for an initial verification:
@@ -348,8 +359,8 @@ Use the following sequence for an initial verification:
 - No MIMO channel processing
 - No internal channel noise model
 - No cloud or scintillation attenuation
-
-
+- No HAPS-specific SIB19 signalling
+- Gas and rain models require further end-to-end validation
 
 ## 13. Before a Public Release
 
