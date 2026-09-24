@@ -15,8 +15,8 @@ being tested.
 
 | Scenario | gNB configuration | UE configuration | `enable_propagation_delay` |
 |---|---|---|---:|
-| Delay disabled | `gnb.sa.band78.fr1.106PRB.haps.rfsim.conf` | `ue.haps.conf` | `0` in both `hapsmod` records |
-| Delay enabled | `gnb.sa.band78.fr1.106PRB.haps.rfsim.backup.conf` | `ue.haps.conf` | `1` in both `hapsmod` records |
+| Delay disabled | `gnb.sa.band78.fr1.106PRB.haps.rfsim.delay-off.conf` | `ue.haps.conf` | `0` in both `hapsmod` records |
+| Delay enabled | `gnb.sa.band78.fr1.106PRB.haps.rfsim.delay-on.conf` | `ue.haps.conf` | `1` in both `hapsmod` records |
 
 Selecting the second gNB file does **not** enable the HAPS delay by itself.
 The `enable_propagation_delay` flag in
@@ -47,7 +47,7 @@ Delay disabled:
 
 ```bash
 ./nr-softmodem \
-  -O <repo>/examples/gnb.sa.band78.fr1.106PRB.haps.rfsim.conf \
+  -O <repo>/examples/gnb.sa.band78.fr1.106PRB.haps.rfsim.delay-off.conf \
   --rfsim
 ```
 
@@ -55,7 +55,7 @@ Delay enabled:
 
 ```bash
 ./nr-softmodem \
-  -O <repo>/examples/gnb.sa.band78.fr1.106PRB.haps.rfsim.backup.conf \
+  -O <repo>/examples/gnb.sa.band78.fr1.106PRB.haps.rfsim.delay-on.conf \
   --rfsim
 ```
 
