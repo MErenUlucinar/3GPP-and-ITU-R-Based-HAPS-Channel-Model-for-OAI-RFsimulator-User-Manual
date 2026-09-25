@@ -14,9 +14,10 @@ WGS-84-based HAPS-to-UE geometry with large-scale propagation effects based on
 
 - [User Guide](docs/USER_GUIDE.md)
 - [OAI Integration Guide](integration/README.md)
+- [Source Module Guide](src/README.md)
 - [Example HAPS Configuration](examples/channelmod_haps_3gpp_itu.conf)
 - [Reference Validation Results](validation/reference_results.csv)
-- [Source Module Guide](src/README.md)
+
 
 ## Overview
 
